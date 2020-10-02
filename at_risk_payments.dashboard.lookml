@@ -4,7 +4,7 @@
   elements:
   - title: Risk Response Over Time
     name: Risk Response Over Time
-    model: block-braintree
+    model: block_braintree
     explore: transaction
     type: looker_area
     fields: [transaction.count, transaction.risk_data_decision, transaction.created_month]

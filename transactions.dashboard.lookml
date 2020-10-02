@@ -4,7 +4,7 @@
   elements:
   - title: Transactions
     name: Transactions
-    model: block-braintree
+    model: block_braintree
     explore: transaction
     type: single_value
     fields: [transaction.count]
