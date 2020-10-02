@@ -4,7 +4,7 @@ project_name: "braintree_refined_simple"
 
 constant: DATASET_NAME {
   value: "braintree"
-  export: override_required
+  export: override_optional
 }
 
 constant: ROW_FILTER {
