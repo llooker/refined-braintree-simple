@@ -74,7 +74,7 @@
     height: 13
   - title: Unsettled Transactions Using Expired Credit Cards
     name: Unsettled Transactions Using Expired Credit Cards
-    model: block-braintree
+    model: block_braintree
     explore: transaction
     type: looker_grid
     fields: [credit_card.bin, credit_card.cardholder_name, credit_card.days__until_expiration,
@@ -153,7 +153,7 @@
     height: 13
   - title: Active Subscriptions With Expired Credit Cards
     name: Active Subscriptions With Expired Credit Cards
-    model: block-braintree
+    model: block_braintree
     explore: transaction
     type: looker_grid
     fields: [credit_card.bin, credit_card.cardholder_name, subscription.balance, subscription.next_billing_date,
@@ -232,7 +232,7 @@
     height: 15
   - title: Transactions In Need of Review
     name: Transactions In Need of Review
-    model: block-braintree
+    model: block_braintree
     explore: transaction
     type: looker_grid
     fields: [transaction.updated_date, transaction.tender_display, transaction.total_amount,
