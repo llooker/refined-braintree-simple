@@ -1,6 +1,6 @@
 view: apple_pay_card {
   sql_table_name: @{DATASET_NAME}.APPLE_PAY_CARD ;;
-
+  #SMALL CHANGE
   dimension: card_type {
     type: string
     sql: ${TABLE}.card_type ;;
