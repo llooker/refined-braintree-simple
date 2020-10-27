@@ -1,5 +1,6 @@
 view: paypal_details {
   sql_table_name: @{DATASET_NAME}.PAYPAL_DETAILS ;;
+  #SIMPLE TEST
 
   dimension: authorization_id {
     type: number
